@@ -30,7 +30,7 @@ const styles = theme => ({
 const PostMessageForm = ({ classes, ...props }) => {
 
     useEffect(() => {
-        if (props.currentId != 0){
+        if (props.currentId !== 0){
             setValues({
                 ...props.postMessageList.find(x => x._id == props.currentId)
             })
