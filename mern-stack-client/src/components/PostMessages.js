@@ -8,8 +8,8 @@ import { DeleteSweep } from "@material-ui/icons";
 
 const styles = theme => ({
     paper: {
-        margin: theme.spacing(3),
-        padding: theme.spacing(2)
+        margin: theme.spacing(4),
+        padding: theme.spacing(3)
     },
     smMargin: {
         margin: theme.spacing(1)
